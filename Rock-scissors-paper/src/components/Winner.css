@@ -1,0 +1,39 @@
+.restartDiv {
+    display: flex;
+    justify-content: center;
+  }
+  
+.restartButton {
+    margin: 20px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.computerChoose {
+    max-height: 150px;
+    max-width: 150px;
+    transition: all ease 1s;
+    padding: 5px;
+    margin: 15px;
+    border-radius: 200px;
+    transform: scale(-1, 1);
+}
+
+.playerChoose {
+    max-height: 150px;
+    max-width: 150px;
+    transition: all ease 1s;
+    padding: 5px;
+    margin: 15px;
+    border-radius: 200px;
+}
+
+
+.winnerDiv {
+    display: flex;
+    justify-content: center;
+    font-size: 25px;
+    font-weight: 700;
+    margin: 20px;
+    padding: 10px;
+}
